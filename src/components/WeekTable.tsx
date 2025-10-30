@@ -68,9 +68,6 @@ function WeekTable() {
         });
     };
 
-    // Helper to count total checked boxes
-    const totalChecked = checked.flat().filter(Boolean).length;
-
     // Helper to get the date string for the Monday of a given week
     function getMondayOfWeek(weekIndex: number): string {
         if (!startDate) return '';
